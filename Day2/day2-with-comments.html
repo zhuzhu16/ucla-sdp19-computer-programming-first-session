@@ -1,0 +1,138 @@
+<!-- THIS IS THE BASIC DOCUMENT STRUCTURE:
+  <html>
+       <head>
+           Document metadata
+      </head>
+      <body>
+           Document contents
+      </body>
+  </html>
+-->
+
+<!-- Below is working code.
+     Read the comments and try to understand what it does.
+     Compare the code to what you see in the browser.
+-->
+
+<!-- DOCTYPE is not required but tells browser to use HTML5
+    Does not need closing tag. If left out, browser will use HTML4
+-->
+<!DOCTYPE html>
+
+<!-- Open up html page with <html> tag (0). Find the closing tag. -->
+<html>
+  <!--
+        The <head> element is a container for metadata (data about data)
+        and is placed between the <html> tag and the <body> tag.
+  -->
+  <head>
+    <!-- <title> element defines the title of the document, and is required in all HTML documents. -->
+    <title>Dog Blog</title>
+  </head>
+
+  <!-- open up your body tag. This is what will show on the page -->
+  <body>
+
+    <!--
+        (1) <divs> are containers that divide different sections.
+        Here are some examples:
+    -->
+    <div style="background-color: #FFD7D7">
+       This is inside a div tag
+    </div>
+
+    <div style="background-color: #FFD7D7">
+       This is inside a div tag
+    </div>
+
+    <div style="background-color: #FFD7D7">
+       This is inside a div tag.
+    </div>
+
+    <!--
+        (2) This <div>/container contains <p> tags.
+        Find the closing tag for this div
+    -->
+
+    <div style="background-color: yellow"> 
+
+        <!-- (3) examples of paragraph tags <p> below -->
+        <p style="background-color: rgb(152, 253, 223)">
+          This is a inside a p tag
+        </p>
+
+        <p style="background-color: #98FDDF">
+          This is a inside a p tag
+        </p>
+
+        <p style="background-color: #98FDDF">
+            Use Lorem Ipsum for filler text. Lorem ipsom varius vel pharetra vel turpis. Faucibus interdum posuere lorem ipsum dolor. Amet porttitor eget dolor morbi non arcu. Pellentesque massa placerat duis ultricies. Tempus iaculis urna id volutpat lacus. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Mauris a diam maecenas sed.  
+        </p>
+
+
+    </div> <!-- (2) this closes the div from above -->
+
+    <!-- (4) this <div>/section contains headings -->
+    <div>
+        <!-- (5) examples of heading tags <h#> -->
+        <h1>
+          This is an h1
+        </h1>
+
+        <h2>
+          This is an h2
+        </h2>
+
+        <h3>
+          This is an h3
+        </h3>
+
+        <h4>
+          This is an h4
+        </h4>
+
+        <h5>
+          This is an h5
+        </h5>
+
+        <h6>
+          This is an h6
+        </h6>
+    </div> <!-- (4) this closes the <div> above -->
+
+    <!-- (6) this <div>/section contains info about links<a> and images<img> -->
+    <div>
+      <!-- <a> tags are for links -->
+        <a href="http://google.com">This will link to Googles Website. You can click on me.</a>
+
+      <!-- <br> is a line break to go to the next line -->
+        <br>
+
+      <!-- (7) <img> tags are for images -->
+        <!--
+           NOTE!! 
+          <img></img>   (Code to the left is NOT valid.)
+          <img src="http://url.com" alt="img-info" />    (Code the left IS valid. This uses a self closing tag. (7.1))
+        -->
+
+        <!-- (7.2) Below shows a valid image<img /> elemnt -->
+        <img src="https://www.guidedogs.org/wp-content/uploads/2018/01/Mobile.jpg" 
+             alt="cute puppy"
+             style="width: 200px;"
+        /> <!-- (7.1) to the left is a self closing tag, with a slash(/) and angle braket(>) -->
+
+        <!--
+              (7.3) Below uses a broken image link.
+              You will NOT see an image on the webpage, but instead will see alt text.
+              Compare this to (7.2) 
+        -->
+         <img src="https:/www.thisLinkIsntaRealLink.com" 
+              alt="this is the text to show to description the image"
+         />
+
+    </div> <!-- this closes the <div>(6) above-->
+
+  </body> <!-- this closes the body tag; will usually see this as the second to last item on the page. -->
+</html> <!-- close the html tag at the end of the page-->
+
+

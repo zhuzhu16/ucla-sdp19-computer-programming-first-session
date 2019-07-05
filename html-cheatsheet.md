@@ -1,6 +1,7 @@
 # HTML Cheat Sheet
 
-##Basic HTML Structure
+## Basic HTML Structure
+
 ```
 <html>
  <head>
@@ -12,3 +13,9 @@
 </html>
 
 ```
+
+
+Common Tags for Blogs
+div
+p
+
