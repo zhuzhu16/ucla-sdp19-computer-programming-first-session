@@ -1,0 +1,21 @@
+h1 {
+    color: paleturquoise;
+    background-color: palevioletred;
+}
+
+body {
+    /* background-color: wheat; */
+    background-image: url("https://i.pinimg.com/originals/48/d1/0b/48d10b0a07e7c8de69088b0f85a1c81a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* these are for comments inside .css  */
+.tv-bg {
+    background-image: url("https://i.cartoonnetwork.com/prismo/props/reg_tv-pg-v.png");
+    background-size: contain;
+    
+    width: 500px;
+    height: 200px;
+}
+
