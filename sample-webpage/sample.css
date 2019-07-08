@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+nav {
+    padding: 10px;
+    background-color: #2b195c;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav a {
+    text-decoration:  none;
+    /* text-decoration-color: aquamarine; the underline color if you want underline */
+    color: #c8c0f3;
+    padding: 14px 20px;
+    /* text-align: center; */
+}
+
+nav a:hover {
+    color: #ecd344;
+}
+
+
+header {
+    background-image: url("https://accuweather.brightspotcdn.com/dims4/default/4610650/2147483647/resize/590x/quality/90/?url=http%3A%2F%2Faccuweather-bsp.s3.amazonaws.com%2F8a%2Fb1%2Ff2c7c73d422fa7c5163f98b453a0%2Flos-angeles.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: top; 
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 170, 0.5);
+    color: rgb(51, 44, 141);
+    padding-top: 38px;
+}
+
+.slide {
+    height: 75vh;
+    box-sizing: border-box;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#about {
+    background-color: rgb(255, 249, 158);
+    padding: 20px;
+    margin: 0;
+}
+
+#my-profile-image {
+    background-image: url("https://profilepicturesdp.com/wp-content/uploads/2018/07/profile-picture-facebook-funny-11.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30%;
+    height:100%;
+    display: inline-block;
+}
+
+#my-profile-details {
+    width:  60%;
+    height: 100%;
+    background-color: rgb(160, 161, 105);
+    padding: 20px;
+    box-sizing: border-box;
+}
+

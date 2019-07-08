@@ -3,6 +3,7 @@
 ## Basic HTML Structure
 
 ```
+<!doctype html>
 <html>
  <head>
   <title>website title</title>
