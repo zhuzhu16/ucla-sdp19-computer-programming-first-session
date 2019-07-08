@@ -4,9 +4,7 @@
 
 2. Code this on paper: 
 ``` My Favorite Fruits: 
-  <ol> 
-    <li>Mango</li>
-    <li>Avocado</li>
-    <li>Banana</li>
-   </ol>
+  1.  Mangos
+  2. Oranges
+  3. Avocados
    ```
