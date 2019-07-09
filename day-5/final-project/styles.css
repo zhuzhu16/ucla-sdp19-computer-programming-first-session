@@ -1,0 +1,45 @@
+body {
+    background-color: tan;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: darkcyan;
+    padding: 10px;
+    position: fixed;
+    width: 100%; /* view width = vw */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    */
+    font-size: 1.5em;
+    color:white;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+h2 {
+    background-color: greenyellow
+} 
+*/
+
