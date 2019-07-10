@@ -1,0 +1,58 @@
+body {
+    background-color:tan;
+    padding:0;
+}
+
+nav {
+    background-color: rgb(175, 133, 192);
+    margin:0;
+    padding: 10px;
+    position:fixed;
+    font-size:1.2em;
+}
+
+nav a {
+    text-decoration:none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: white;
+}
+
+header {
+    padding-top:38px;
+    background-image:url("https://invisionstudio.com/wp-content/uploads/2015/08/Los-Angeles-Thumb.jpg");
+    background-size:cover;
+    background-position: bottom;
+}
+.slide {
+    height: 75vh;
+    background-color:rgb(255, 218, 224);
+    border:1px
+    solid #ffffff;
+    margin:10px;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+div h1 {
+    color:rgb(209, 47, 209);
+}
+
+#about {
+    background-color:rgb(233, 240, 145);
+}
+
+#my-ptofile-pic {
+    background-image: url("C:\Users\YUE\Desktop\sb老师的课\final project\微信图片_20190709142257.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+    width:40%;
+}
+
+#my-proile-details {
+    widths: 60%;
+
+}
